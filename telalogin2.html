@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang ="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE-edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="css/style.css"
+
+    <title> Uniasselvi</title>
+
+</head>
+<body>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, cyan, yellow);
+        }
+        div{
+            background-color: rgba(0, 0, 0, 0.9);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 80px;
+            border-radius: 15px;
+            color:white
+        
+        }
+        input{
+            padding: 15px;
+            border:  none;
+            outline: none;
+            font-size: 15px;
+
+        }
+        button{
+            background-color: rgb(11, 14, 17);
+            border:  none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color:white;
+            font-size: 15px;
+
+        }
+        button:hover{
+            background-color: deepskyblue;
+            cursor:pointer
+
+        }
+    </style>
+    <div>
+
+       <H1>Login</H1>
+       <input type="text" placeholder="Nome">      <!--Campo de inserção/nome --> 
+        <br><br>                                      <!--Quebra de duas linhas -->        
+        <input type="password" placeholder="Senha"> 
+        <br><br>                                          <!--Campo de inserção/senha --> 
+        <button type="submit"form ="f_cadastro" onclick="alert()">
+            
+        
+          Entrar
+        </button>
+        
+    
+        </div>
+      
+      
+    </div>
+
+     <script> function logar(){
+
+             var Login = document.getElementById('Nome').value; 
+             var Login = document.getElementById('Senha').value; 
+
+             if(Nome == "admin" && Senha == "admin"){
+             alert('Sucesso');
+ 
+              }
+     }
+
+
+     </script>
+</body>
+   
+</head>
+
+
+
+</html>
